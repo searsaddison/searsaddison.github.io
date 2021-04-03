@@ -9,19 +9,29 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    background-color: black;
 
     color: white;
     font-size: 60px;
     font-family: Uni Sans;
     text-align: center;
+
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text {
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@viewport {
-    width: device-width;
-    zoom: 1.0;
+.container {
+    margin-left: auto;
+    margin-right: auto;
 }
+
